@@ -12,48 +12,48 @@
 
 # Current Blockers
 
-*Relationship Issue with Site Technical Contact*
+- ***Relationship Issue with Site Technical Contact***
 - Randomly Terminating Access
 - Revocation of Administrator Prompts
 - System Shutdown of Management VMs
 
-*No Full Access to Firewall*
+***No Full Access to Firewall***
 - Managed by a 3rd Party
 - No Contact Information or listed contact
 
-*Time difference of 6 hours (GMT-4/GMT+2)*
+***Time difference of 6 hours (GMT-4/GMT+2)***
 
 # The following are the technologies that any proposed Solution must support:
 
-**PasThrough Authentication** 
+- **PasThrough Authentication** 
 
-**Cloud Kerberos Ticket Retrieval**
+- **Cloud Kerberos Ticket Retrieval**
 
-**Azure File Share Access**
+- **Azure File Share Access**
 
-**MDM Management From InTune**
+- **MDM Management From InTune**
 
-**BitLocker Encrpytion**
+- **BitLocker Encrpytion**
 
-**Users have ONE Account unless Administrative Access for On Site Resources is Required**
+- **Users have ONE Account unless Administrative Access for On Site Resources is Required**
 
 
-**Synchronization of the Following Object Types for EVAPCO HQ and Sub-Location Standards:**
-- Users
-- Devices
-- Password Hash
+- **Synchronization of the Following Object Types for EVAPCO HQ and Sub-Location Standards:**
+    - Users
+    - Devices
+    - Password Hash
 
-**Parity for Previous Architecture:**
-- Groups
+- **Parity for Previous Architecture:**
+    - Groups
 
 # Assumptions
 
-*Assume we are unable to use Cloud Sync and an erratic Domain Trust*
+***Assume we are unable to use Cloud Sync and an erratic Domain Trust***
 - The OnSite Technical Resource previously expressed interest in Cloud Sync
 - Based on their requirements for PassThrough Authentication we knew this would cause issues.
 - Our Uniform Standard is Hybrid Synching Locations, Users, Devices.
-*Users must use a single account across all environments*
-*Users must use Windows Hello for Business for Authentication Purposes to Drive Cloud Kerberos Ticket Retrieval*
+***Users must use a single account across all environments***
+***Users must use Windows Hello for Business for Authentication Purposes to Drive Cloud Kerberos Ticket Retrieval***
 
 # Previous Solutions Attempted
 
