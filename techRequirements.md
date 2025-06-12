@@ -52,7 +52,9 @@
 - The OnSite Technical Resource previously expressed interest in Cloud Sync
 - Based on their requirements for PassThrough Authentication we knew this would cause issues.
 - Our Uniform Standard is Hybrid Synching Locations, Users, Devices.
+
 ***Users must use a single account across all environments***
+
 ***Users must use Windows Hello for Business for Authentication Purposes to Drive Cloud Kerberos Ticket Retrieval***
 
 # Previous Solutions Attempted
