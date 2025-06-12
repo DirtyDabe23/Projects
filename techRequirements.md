@@ -57,9 +57,11 @@
 
 # Previous Solutions Attempted
 
-*Nat Rule*
+*NAT Rule*
 
 *"Double NAT"*
+
+*Construction of DNS Zones to reflect NAT Schema on evapco.com and domfc.local*
 
 - Both of these solutions failed to lead to satisfcatory outcomess.
     - Pings were 'successful'
