@@ -45,4 +45,4 @@
 # Previous Solutions Attempted
 
 *Nat Rule*
-*"Double NAT*
+*"Double NAT"*
