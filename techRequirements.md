@@ -1,4 +1,5 @@
 # Overview
+
 - EVAPCO Europe A/S is a site in Denmark.
 - They previously were synching to their own tenant.
 - They previously had full control of their entire environment.
@@ -10,6 +11,7 @@
     - "Generally Unpleasant Experience"
 
 # Current Blockers
+
 *Relationship Issue with Site Technical Contact*
 - Randomly Terminating Access
 - Revocation of Administrator Prompts
@@ -20,6 +22,7 @@
 *Time difference of 6 hours (GMT-4/GMT+2)*
 
 # The following are the technologies that any proposed Solution must support:
+
 **PasThrough Authentication** 
 **Cloud Kerberos Ticket Retrieval**
 **Synchronization of the Following Object Types for EVAPCO HQ and Sub-Location Standards:**
@@ -31,6 +34,7 @@
 - Groups
 
 # Assumptions
+
 *Assume we are unable to use Cloud Sync and an erratic Domain Trust*
 - The OnSite Technical Resource previously expressed interest in Cloud Sync
 - Based on their requirements for PassThrough Authentication we knew this would cause issues.
@@ -39,5 +43,6 @@
 *Users must use Windows Hello for Business for Authentication Purposes to Drive Cloud Kerberos Ticket Retrieval*
 
 # Previous Solutions Attempted
+
 *Nat Rule*
 *"Double NAT*
