@@ -61,6 +61,13 @@
 
 *"Double NAT"*
 
+- Both of these solutions failed to lead to satisfcatory outcomess.
+    - Pings were 'successful'
+    - Traceroutes would fail their first 3 initial hops from a Cloud Kerberos Joined Computer, aligning with Microsoft Documentation
+    - The Domain Trust Wizard would add both domains
+    - Attempts to add the DOMFC.LOCAL domain to the sync tool universally fail.
+    - The Domain Trust Collapses within 15 minutes
+
 # Already Existing / Known Solution(s)
 
 1. Cloud Connect Sync
