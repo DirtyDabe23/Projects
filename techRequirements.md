@@ -16,9 +16,11 @@
 - Randomly Terminating Access
 - Revocation of Administrator Prompts
 - System Shutdown of Management VMs
+
 *No Full Access to Firewall*
 - Managed by a 3rd Party
 - No Contact Information or listed contact
+
 *Time difference of 6 hours (GMT-4/GMT+2)*
 
 # The following are the technologies that any proposed Solution must support:
