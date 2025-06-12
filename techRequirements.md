@@ -24,7 +24,18 @@
 # The following are the technologies that any proposed Solution must support:
 
 **PasThrough Authentication** 
+
 **Cloud Kerberos Ticket Retrieval**
+
+**Azure File Share Access**
+
+**MDM Management From InTune**
+
+**BitLocker Encrpytion**
+
+**Users have ONE Account unless Administrative Access for On Site Resources is Required**
+
+
 **Synchronization of the Following Object Types for EVAPCO HQ and Sub-Location Standards:**
 - Users
 - Devices
@@ -47,3 +58,9 @@
 *Nat Rule*
 
 *"Double NAT"*
+
+# Already Existing / Known Solution(s)
+
+1. Cloud Connect Sync
+2. IP Cutover of Domain Controller(s) at Minimum, but very likely all devices 
+3. Full Enterprise Network Cutover of Corporate Network and all sub locations aligned with new IP Schema
