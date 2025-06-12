@@ -25,7 +25,7 @@
 
 # The following are the technologies that any proposed Solution must support:
 
-- **PasThrough Authentication** 
+- **PassThrough Authentication** 
 
 - **[Cloud Kerberos Ticket Retrieval](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/how-it-works-authentication#microsoft-entra-hybrid-join-authentication-using-cloud-kerberos-trust)**
 
