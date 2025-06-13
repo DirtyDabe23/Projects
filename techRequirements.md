@@ -35,7 +35,7 @@
 
 - **[MDM Management From InTune and fulfillment of all listed objectives](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/intune-planning-guide)**
 
-- [**Defender for Endpoint and BitLocker Encrpytion](https://learn.microsoft.com/en-us/intune/intune-service/protect/mde-security-integration)**
+- **[Defender for Endpoint and BitLocker Encrpytion](https://learn.microsoft.com/en-us/intune/intune-service/protect/mde-security-integration)**
 
 - **Users have ONE Account unless Administrative Access for On Site Resources is Required**
 
