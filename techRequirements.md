@@ -7,7 +7,7 @@
     - The revocation of these permissions has been poorly received
 - Their location was the last remaining location with independently managed email, account access, etc.
 - We cut over their users via our in-house (David Drosdick) developed [Clear Enrollment](https://github.com/DirtyDabe23/EvapcoRepo/blob/main/Modules/Clear-Enrollment/Clear-Enrollment.ps1) module.
-    - Users signed into the Company Portal on a device that went through this process to register it.
+    - [Users signed into the Company Portal on a device that went through this process to register it.](https://learn.microsoft.com/en-us/intune/intune-service/user-help/device-enrollment-overview-windows)
     - There were signficant breakdowns in communication on both the HQ and Sub-Location side.
     - ["Generally Unpleasant Experience" but no devices required wiped and reloaded, etc.](https://techcommunity.microsoft.com/blog/intunecustomersuccess/support-tip-how-to-transfer-windows-autopilot-devices-between-tenants/3920555)"
 - ***We are synching 5 other domains***
