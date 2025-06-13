@@ -60,7 +60,7 @@
 - The OnSite Technical Resource previously expressed interest in Cloud Sync
 - Based on their requirements for PassThrough Authentication we knew this would cause issues.
 - Our Uniform Standard is Hybrid Synching Locations, Users, Devices.
-    -We are gradually implementing Azure Joined Endpointd, but Cloud Kerberos and PassThru Authentication require Hybrid synchronisation
+    - We are gradually implementing Azure Joined Endpointd, but Cloud Kerberos and PassThru Authentication require Hybrid synchronisation
 
 ***Users must use a single account across all environments***
 
