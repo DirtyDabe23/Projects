@@ -29,7 +29,7 @@
 - Managed by a 3rd Party
 - No Contact Information or listed contact
 
-***Time difference of 6 hours (GMT-4/GMT+2)***
+***Time difference of 6|7 hours (GMT-4/GMT+2)***
 
 # The following are the technologies that any proposed Solution must support:
 
@@ -60,6 +60,7 @@
 - The OnSite Technical Resource previously expressed interest in Cloud Sync
 - Based on their requirements for PassThrough Authentication we knew this would cause issues.
 - Our Uniform Standard is Hybrid Synching Locations, Users, Devices.
+    -We are gradually implementing Azure Joined Endpointd, but Cloud Kerberos and PassThru Authentication require Hybrid synchronisation
 
 ***Users must use a single account across all environments***
 
