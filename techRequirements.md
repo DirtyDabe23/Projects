@@ -15,9 +15,9 @@
 # Current Blockers
 
 - ***Relationship Issue with Site Technical Contact***
-- Randomly Terminating Access
-- Revocation of Administrator Prompts
-- System Shutdown of Management VMs
+    - Randomly Terminating Access
+    - Revocation of Administrator Permissions of our Managament Accounts
+    - System Shutdown of Management VMs
 
 ***No Full Access to Firewall***
 - Managed by a 3rd Party
