@@ -55,7 +55,7 @@
 
 ***Users must use a single account across all environments***
 
-***Users must use Windows Hello for Business for Authentication Purposes to Drive Cloud Kerberos Ticket Retrieval***
+***[Users must use Windows Hello for Business for Authentication Purposes](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/deploy/hybrid-cloud-kerberos-trust?tabs=intune)***
 
 # Previous Solutions Attempted
 
