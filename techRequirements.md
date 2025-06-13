@@ -1,7 +1,7 @@
 # Overview
 
 - EVAPCO Europe A/S is a site in Denmark.
-- They previously were synching to their own tenant and Hybrid Synching *everything*
+- [They previously were synching to their own tenant and Hybrid Synching *everything*](https://learn.microsoft.com/en-us/entra/identity/hybrid/)
 - [The requirements for Hybrid Synching are known to be unforgiving](https://learn.microsoft.com/en-us/entra/identity/devices/hybrid-join-plan)
 - They previously had full control of their entire environment.
     - The revocation of these permissions has been poorly received
@@ -10,6 +10,12 @@
     - Users signed into the Company Portal on a device that went through this process to register it.
     - There were signficant breakdowns in communication on both the HQ and Sub-Location side.
     - ["Generally Unpleasant Experience" but no devices required wiped and reloaded, etc.](https://techcommunity.microsoft.com/blog/intunecustomersuccess/support-tip-how-to-transfer-windows-autopilot-devices-between-tenants/3920555)"
+- We are synching 5 other domains
+    - rvscorp.com
+    - evapco-alcoil.com
+    - evapcomw.com
+    - towercomponentsinc.com
+    - EVAPTECH.LAN
 
 
 # Current Blockers
@@ -40,7 +46,7 @@
 - **Users have ONE Account unless Administrative Access for On Site Resources is Required**
 
 
-- **Synchronization of the Following Object Types for EVAPCO HQ and Sub-Location Standards:**
+- **[Synchronization of the Following Object Types for EVAPCO HQ and Sub-Location Standards](https://learn.microsoft.com/en-us/entra/identity/hybrid/cloud-sync/what-is-cloud-sync#comparison-between-microsoft-entra-connect-and-cloud-sync)**
     - Users
     - Devices
     - Password Hash
