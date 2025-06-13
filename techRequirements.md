@@ -77,7 +77,7 @@
 - FortiNet
 - Microsoft
 - SonicWall
-- Solutions Granted
+- Layer 8
 - Connection
 
 # Already Existing / Known Solution(s)
