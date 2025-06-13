@@ -57,6 +57,8 @@
 
 # Assumptions
 
+***The Forest Master must be a VM in Taneytown***
+
 ***Assume we are unable to use Cloud Sync and an erratic Domain Trust***
 - The OnSite Technical Resource previously expressed interest in Cloud Sync
 - Based on their requirements for PassThrough Authentication we knew this would cause issues.
