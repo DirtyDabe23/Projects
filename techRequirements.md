@@ -33,9 +33,9 @@
 
 - **[Azure File Share Access](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-hybrid-identities-enable?tabs=azure-portal%2Cintune)**
 
-- **MDM Management From InTune**
+- **[MDM Management From InTune and fulfillment of all listed objectives](https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/intune-planning-guide)**
 
-- **BitLocker Encrpytion**
+- [**Defender for Endpoint and BitLocker Encrpytion](https://learn.microsoft.com/en-us/intune/intune-service/protect/mde-security-integration)**
 
 - **Users have ONE Account unless Administrative Access for On Site Resources is Required**
 
