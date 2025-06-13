@@ -72,6 +72,14 @@
     - Attempts to add the DOMFC.LOCAL domain to the sync tool universally fail.
     - The Domain Trust Collapses within 15 minutes
 
+# Resources Engaged
+
+- FortiNet
+- Microsoft
+- SonicWall
+- Solutions Granted
+- Connection
+
 # Already Existing / Known Solution(s)
 
 1. Cloud Connect Sync
