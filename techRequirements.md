@@ -31,7 +31,7 @@
 
 - **[Cloud Kerberos Ticket Retrieval](https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/how-it-works-authentication#microsoft-entra-hybrid-join-authentication-using-cloud-kerberos-trust)**
 
-- **Azure File Share Access**
+- **[Azure File Share Access](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-hybrid-identities-enable?tabs=azure-portal%2Cintune)**
 
 - **MDM Management From InTune**
 
