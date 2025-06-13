@@ -6,5 +6,7 @@ This was written primarily by David Drosdick with the assistance of Tyler Bollin
 While every effort has been made to ensure that these scripts are safe to run, there are still chances that unexpected results may occur.<br>   
 
 <br>
-For any questions or concerns, please contact: <br> 
-<David.Drosdick@evapco.com> or reach out to <Git-Helpdesk@evapco.com>
+For any questions or concerns, please contact: <br>
+
+[David.Drosdick@evapco.com](David.Drosdick@evapco.com) for general questions <br>
+ [Git-Helpdesk@evapco.com](Git-Heldpesk@evapco.com) for technical issues.
