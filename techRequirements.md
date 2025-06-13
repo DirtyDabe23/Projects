@@ -75,7 +75,7 @@
 
 - All of the above Solutions failed to lead to satisfcatory outcomes.
     - Pings were 'successful'
-    - Traceroutes would fail their first 3 initial hops from a Cloud Kerberos Joined Computer, aligning with Microsoft Documentation
+    - Traceroutes would fail their first 3 initial hops from a Cloud Kerberos Authenticating Azure Joined InTune Managed Computer and Hybrid User Identity, aligning with Microsoft Documentation
     - The Domain Trust Wizard would add both domains
     - Attempts to add the DOMFC.LOCAL domain to the sync tool universally fail.
     - The Domain Trust Collapses within 15 minutes
