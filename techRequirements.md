@@ -10,8 +10,8 @@
     - Users signed into the Company Portal on a device that went through this process to register it.
     - There were signficant breakdowns in communication on both the HQ and Sub-Location side.
     - ["Generally Unpleasant Experience" but no devices required wiped and reloaded, etc.](https://techcommunity.microsoft.com/blog/intunecustomersuccess/support-tip-how-to-transfer-windows-autopilot-devices-between-tenants/3920555)"
-- We are synching 5 other domains
-    - rvscorp.com
+- ***We are synching 5 other domains***
+    - *rvscorp.com
     - evapco-alcoil.com
     - evapcomw.com
     - towercomponentsinc.com
