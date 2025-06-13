@@ -59,7 +59,7 @@
 
 # Previous Solutions Attempted
 
-*NAT Rule*
+*[NAT Rule](https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/support-for-active-directory-over-nat#microsoft-statement-regarding-active-directory-over-nat)*
 
 *"Double NAT"*
 
