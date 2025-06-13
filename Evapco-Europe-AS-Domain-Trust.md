@@ -1,7 +1,7 @@
 # Overview
 
 - EVAPCO Europe A/S is a site in Denmark.
-- GDPR
+- ***GDPR***
 - [They previously were synching to their own tenant and Hybrid Synching *everything*](https://learn.microsoft.com/en-us/entra/identity/hybrid/)
 - [The requirements for Hybrid Synching are known to be unforgiving](https://learn.microsoft.com/en-us/entra/identity/devices/hybrid-join-plan)
 - They previously had full control of their entire environment.
