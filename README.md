@@ -8,5 +8,5 @@ While every effort has been made to ensure that these scripts are safe to run, t
 <br>
 For any questions or concerns, please contact: <br>
 
-[David.Drosdick@evapco.com](David.Drosdick@evapco.com)  for general questions <br>
- [Git-Helpdesk@evapco.com](Git-Heldpesk@evapco.com)     for technical issues.
+[David.Drosdick@evapco.com](mailto:David.Drosdick@evapco.com)  for general questions <br>
+ [Git-Helpdesk@evapco.com](mailto:Git-Heldpesk@evapco.com)     for technical issues.
