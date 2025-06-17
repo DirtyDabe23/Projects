@@ -118,8 +118,8 @@
 
 ***Steps***
 
-1. We Provision the environment as stated above.
-    1. lab/on-Prem-Physical-Network 
+1. ***We Provision the environment as stated above***.
+    1. **lab/on-Prem-Physical-Network**
         1. SubNetting: 182.190.0.0/168 (Both Domains / FMSO / Sync)
             - Domain 1 Non-Conflict: 15.59.0.0/8
             - Domain 2 Non-Conflict 15.60.0.0/8
@@ -131,16 +131,16 @@
         3. One 'local' Hybrid User Per Domain
             - One Azure Tenant User Per Domain 
             - **This nessecitates the purchase and verficiation of the domains**
-    2. User Licensing
+    2. **User Licensing**
         - E5 + Hybrid Synching User x2
         - F3 + Cloud Only User x2
-    3. Domain #1 and Domain #2 
+    3. **Domain #1 and Domain #2**
         - Purchased through CloudFlare
         - MX Records Added
         - 1:1 Configuration with how we tool ours
-2. We establish connectivity between the onPrem SubNets **for the same domains**
-3. We establish a VPN tunnel / intersite connectivity **for the domain controllers on the non conflicting SubNets**
-4. We attempt to establish a Domain Trust
+2. ***We establish connectivity between the onPrem SubNets **for the same domains*****
+3. ***We establish a VPN tunnel / intersite connectivity **for the domain controllers on the non conflicting SubNets***
+4. ***We attempt to establish a Domain Trust***
     - If failed, we stop here, and reevaluate.
         - Possible *Pivot Plans* Include
             1. Transferring FSMO to Non-Conflicting SubNet
