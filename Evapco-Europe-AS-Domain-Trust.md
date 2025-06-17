@@ -92,6 +92,7 @@
 - SonicWall
 - Layer 8
 - Connection
+- Presidio 
 
 # Already Existing / Known Solution(s)
 
