@@ -104,6 +104,7 @@
 **Test Plan**
 
 ***We will use the following as a test environment***
+
 - Test Azure Environment
     - We do have this with our Visual Studio Enterprise Licensing.
 - Two VMWare Hosts
@@ -116,6 +117,7 @@
         - DC2   on Non-Conflicting  SubNet
 
 ***Steps***
+
 1. We Provision the environment as stated above.
     1. lab/on-Prem-Physical-Network 
         1. SubNetting: 182.190.0.0/168 (Both Domains / FMSO / Sync)
