@@ -148,4 +148,9 @@
             1. Transferring FSMO to Non-Conflicting SubNet
             2. Transfer Sync Server to Non-Conflicting SubNet
         - Preferred Plan: **Cutting over the conflicting network at the secondary / non-sync site**
-            
+
+### Options
+
+#### IP Cutover of Denmark - Full Network
+
+#### IP Cutover of Taneytown to New Enterprise Architecture 
