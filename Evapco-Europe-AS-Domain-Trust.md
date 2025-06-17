@@ -98,3 +98,50 @@
 1. Cloud Connect Sync
 2. IP Cutover of Domain Controller(s) at Minimum, but very likely all devices 
 3. Full Enterprise Network Cutover of Corporate Network and all sub locations aligned with new IP Schema
+
+# Plan #2 - IP Cutover of Domain Controller(s)
+
+**Test Plan**
+
+***We will use the following as a test environment***
+- Test Azure Environment
+    - We do have this with our Visual Studio Enterprise Licensing.
+- Two VMWare Hosts
+    - Domain 1: FortiNet Firewall
+        - FSMO  on IP-Conflict      SubNet
+        - Sync  on IP-Conflict      SubNet
+        - DC2   on Non-Conflicting  SubNet
+    - Domain 2: FortiNet Firewall
+        - FSMO  on IP-Conflict      SubNet
+        - DC2   on Non-Conflicting  SubNet
+
+***Steps***
+1. We Provision the environment as stated above.
+    1. lab/on-Prem-Physical-Network 
+        1. SubNetting: 182.190.0.0/168 (Both Domains / FMSO / Sync)
+            - Domain 1 Non-Conflict: 15.59.0.0/8
+            - Domain 2 Non-Conflict 15.60.0.0/8
+        2. VM Provisioning
+            - Sync x1 (Conflict SubNet)
+            - FSMO x2 (Conflict SubNet)
+            - DC02 x2
+                - AD + DNS  
+        3. One 'local' Hybrid User Per Domain
+            - One Azure Tenant User Per Domain 
+            - **This nessecitates the purchase and verficiation of the domains**
+    2. User Licensing
+        - E5 + Hybrid Synching User x2
+        - F3 + Cloud Only User x2
+    3. Domain #1 and Domain #2 
+        - Purchased through CloudFlare
+        - MX Records Added
+        - 1:1 Configuration with how we tool ours
+2. We establish connectivity between the onPrem SubNets **for the same domains**
+3. We establish a VPN tunnel / intersite connectivity **for the domain controllers on the non conflicting SubNets**
+4. We attempt to establish a Domain Trust
+    - If failed, we stop here, and reevaluate.
+        - Possible *Pivot Plans* Include
+            1. Transferring FSMO to Non-Conflicting SubNet
+            2. Transfer Sync Server to Non-Conflicting SubNet
+        - Preferred Plan: **Cutting over the conflicting network at the secondary / non-sync site**
+            
