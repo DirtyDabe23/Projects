@@ -119,7 +119,7 @@
         - DC2   on Non-Conflicting  SubNet
 
 ## Steps: SubNet Ranges are placeholders. <br> 
-### The Principal Network will determine.
+### The Principal Network Engineer will determine.
 
 1. ***We Provision the environment as stated above***.
     1. **lab/on-Prem-Physical-Network**
