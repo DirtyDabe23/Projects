@@ -108,6 +108,8 @@
 
 - Test Azure Environment
     - We do have this with our Visual Studio Enterprise Licensing.
+    - **However, I am not sure of the extent of this benefit**
+    - ***It most likely does not include InTune etc***
 - Two VMWare Hosts
     - Domain 1: FortiNet Firewall
         - FSMO  on IP-Conflict      SubNet
