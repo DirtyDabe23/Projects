@@ -116,7 +116,7 @@
         - FSMO  on IP-Conflict      SubNet
         - DC2   on Non-Conflicting  SubNet
 
-***Steps***
+## Steps
 
 1. ***We Provision the environment as stated above***.
     1. **lab/on-Prem-Physical-Network**
