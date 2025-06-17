@@ -107,7 +107,7 @@
 ***We will need/use the following for a test environment***
 
 - Test Azure Environment + InTune
-    - "We do have this with our Visual Studio Enterprise Licensing!"
+    - The Azure Tenant included via Visual Studio Enterprise Licensing is not sufficient.
     - ***[The above does not include InTune etc](https://visualstudio.microsoft.com/subscriptions/#azure?cat=visual-studio-enterprise-subscription-with-github-enterprise)***
 - Two VMWare Hosts
     - Domain 1: FortiNet Firewall
