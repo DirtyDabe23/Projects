@@ -104,9 +104,9 @@
 
 **Test Plan**
 
-***We will use the following as a test environment***
+***We will need/use the following for a test environment***
 
-- Test Azure Environment
+- Test Azure Environment + InTune
     - "We do have this with our Visual Studio Enterprise Licensing!"
     - ***[The above does not include InTune etc](https://visualstudio.microsoft.com/subscriptions/#azure?cat=visual-studio-enterprise-subscription-with-github-enterprise)***
 - Two VMWare Hosts
@@ -118,7 +118,7 @@
         - FSMO  on IP-Conflict      SubNet
         - DC2   on Non-Conflicting  SubNet
 
-## Steps
+## Steps: SubNet Ranges are placeholders, and will be determined by the Principal Network Engineer.
 
 1. ***We Provision the environment as stated above***.
     1. **lab/on-Prem-Physical-Network**
