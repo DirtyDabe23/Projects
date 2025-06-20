@@ -63,3 +63,5 @@
     - Air Gapped Systems
     - Systems that drive manufacturing equipment
     - Etc.
+- We should address these in Device Groups/Blocks of 20-50
+  - Then Address endpoints that are require special attention.
