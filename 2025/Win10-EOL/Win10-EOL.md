@@ -40,7 +40,7 @@
 1. **Inventory & Readiness Validation**
   - Confirm device compatibility using the latest audit/exported data.
 2. **Group Assignment**
-  - For compatible devices, run a script to set the extension attribute after installing the EvapcoModule
+  - For compatible devices, on a GIT Management Endpoint run a script to set the extension attribute after installing the EvapcoModule
      ```pwsh
      Set-MgDeviceExtensionAttribute -DeviceId <DeviceId> -ExtensionAttribute1 'upgrade'
      ```
