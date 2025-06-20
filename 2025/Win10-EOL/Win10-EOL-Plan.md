@@ -13,7 +13,7 @@
   - 2025-06-09-EE-EA-deviceReadiness.csv
 - Devices are categorized as **Compatible** or **Not Compatible** for Windows 11 based on CPU, RAM, and other hardware requirements.
 
-### 2. Upgrade Process (Core Points from Windows11UpdateProcess.docx)
+### 2. Upgrade Process
 - **Compatible Devices:**
   - Use `Set-MgDeviceExtensionAttribute` to set a custom attribute (e.g., `patch level = 'upgrade'`).
   - This attribute will place devices into the required Azure AD/Intune groups for Windows 11 Feature Update deployment.
@@ -21,6 +21,9 @@
 - **Incompatible Devices:**
   - Devices flagged as "Not Compatible" (due to insufficient CPU, RAM, etc.) will be scheduled for replacement.
   - Replacement planning should include user communication, backup, and device lifecycle management.
+- **Alerting**
+  - We will reach out to the users 2 weeks prior 
+  - We will reach out to the user 1 week prior.
 
 ### 3. Microsoft Documentation Links
 - [Windows 11 Feature Update Process](https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-23h2)
