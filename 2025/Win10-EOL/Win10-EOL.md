@@ -40,7 +40,7 @@
 1. **Inventory & Readiness Validation**
   - Confirm device compatibility using the latest audit/exported data.
 2. **Group Assignment**
-  - For compatible devices, run a script to set the extension attribute after installing the EvapcoModule:
+  - For compatible devices, run a script to set the extension attribute after installing the EvapcoModule
      ```pwsh
      Set-MgDeviceExtensionAttribute -DeviceId <DeviceId> -ExtensionAttribute1 'upgrade'
      ```
@@ -48,7 +48,6 @@
   
    - The group is: [Global: CC - Windows 10 to Windows 11 Upgrade Devices](https://intune.microsoft.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Overview/groupId/4ead5497-a492-4812-b90b-634abb5013ee/menuId/)
 3. **Feature Update Deployment**
-  -
   - Monitor deployment status and address any failures.
 4. **Device Replacement**
   - For incompatible devices, initiate procurement and replacement process.
