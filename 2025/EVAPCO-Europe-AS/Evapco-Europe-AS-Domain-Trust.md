@@ -104,10 +104,10 @@
 
 **Test Plan**
 
-***We will use the following as a test environment***
+***We will need/use the following for a test environment***
 
-- Test Azure Environment
-    - "We do have this with our Visual Studio Enterprise Licensing!"
+- Test Azure Environment + InTune
+    - The Azure Tenant included via Visual Studio Enterprise Licensing is not sufficient.
     - ***[The above does not include InTune etc](https://visualstudio.microsoft.com/subscriptions/#azure?cat=visual-studio-enterprise-subscription-with-github-enterprise)***
 - Two VMWare Hosts
     - Domain 1: FortiNet Firewall
@@ -118,7 +118,8 @@
         - FSMO  on IP-Conflict      SubNet
         - DC2   on Non-Conflicting  SubNet
 
-## Steps
+## Steps: SubNet Ranges are placeholders. <br> 
+### The Principal Network Engineer will determine.
 
 1. ***We Provision the environment as stated above***.
     1. **lab/on-Prem-Physical-Network**
