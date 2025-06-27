@@ -136,4 +136,4 @@ Start-Windows11Upgrade -Quiet
 
 
 
-#### ***Should the Device fail both of the above methods, it will require replacement.***
+## ***Should the Device fail both of the above methods, it will require replacement.***
