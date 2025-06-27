@@ -83,14 +83,20 @@
 ```
 Connect-MgGraph
 ```
+<br>
+
 - Get the device name that you will be using 
 ```
 $deviceName = 'Evapco-TechBenchPC'
 ```
+<br>
+
 - Enter the following command
 ```
 Set-MGDeviceExtensionAttribute -DeviceName $deviceName -PatchLevel Upgrade
 ```
+<br>
+
 - **To ensure the device communicates with InTune and updates its Update Configuration to reflect in InTune, it is best to reboot the endpoint 15 minutes after making this change.**
 - [Review the Group in InTune]((https://intune.microsoft.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Overview/groupId/4ead5497-a492-4812-b90b-634abb5013ee/menuId/))
 - [Quick Link for Feature Update Failures Report in InTune](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsUpdateAlertSummaryReport.ReactView)
@@ -101,21 +107,27 @@ Set-MGDeviceExtensionAttribute -DeviceName $deviceName -PatchLevel Upgrade
 Get-EndpointStatus -Recommendations
 ```
   - That will print out easy readable instructions and issues with the endpoint to let you know what the issues may be.
-
+<br><br>
 
 ### 2. Using Start-Windows11Upgrade
 - Run the following command and determine if the endpoint is eligible:
 ```
 Get-Windows11HardwareReadiness
 ```
+<br>
+
 - Run the following command for a more readable list of requirements:
 ``` 
 Get-EndpointStatus -Recommendations
 ```
+<br>
+
 - Run the following command to run the Windows 11 Upgrade Tool with all notifications to the end user:
 ```
 Start-Windows11Upgrade
 ```
+<br>
+
 - Run the following command to run the Windows 11 Upgrade Tool with only the 'reboot' notification to the end user:
 ```
 Start-Windows11Upgrade -Quiet
@@ -123,4 +135,5 @@ Start-Windows11Upgrade -Quiet
   - **The above will not notify in the event of incompatibility or failures. Nothing will occur.**
   - Review the Endpoint the following day.
 
+<br><br>
 ### 3. Should the Device fail both of these methods, it will require replacement.
