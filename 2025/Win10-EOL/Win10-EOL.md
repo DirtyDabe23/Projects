@@ -63,3 +63,49 @@
     - Air Gapped Systems
     - Systems that drive manufacturing equipment
     - Etc.
+- **All Commands are to be run using the EvapcoModule**
+- The File Path is as follows: ***Evapco, Inc\GIT IT Support - Documents\General\Powershell Scripts\EvapcoRepo\Modules\EvapcoModule***
+  - The *required*    version is **1.0.2.4**
+  - The *recommended* version is **1.0.3.6** 
+
+## 6. Upgrade Experience
+
+### 1. Using InTune
+- PIM to 'InTune Device Administrator' or role with Device Management Permissions.
+- Open Terminal / 'PWSH' 
+```Connect-MgGraph
+```
+- Get the device name that you will be using 
+```$deviceName = 'Evapco-TechBenchPC'
+```
+- Enter the following command
+```Set-MGDeviceExtensionAttribute -DeviceName $deviceName -PatchLevel Upgrade
+```
+- **To ensure the device communicates with InTune and updates its Update Configuration to reflect in InTune, it is best to reboot the endpoint 15 minutes after making this change.**
+- [Review the Group in InTune]((https://intune.microsoft.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Overview/groupId/4ead5497-a492-4812-b90b-634abb5013ee/menuId/))
+- [Quick Link for Feature Update Failures Report in InTune](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsUpdateAlertSummaryReport.ReactView)
+- Review the endpoint between 1800-2300 the evening of the change
+- Review the endpoint after   0700-0900 the following day
+- Run the following command to get the status of the endpoint
+``` Get-EndpointStatus -Recommendations
+```
+  - That will print out easy readable instructions and issues with the endpoint to let you know what the issues may be.
+
+
+### 2. Using Start-Windows11Upgrade
+- Run the following command and determine if the endpoint is eligible:
+```Get-Windows11HardwareReadiness
+```
+- Run the following command for a more readable list of requirements:
+``` Get-EndpointStatus -Recommendations
+```
+- Run the following command to run the Windows 11 Upgrade Tool with all notifications to the end user:
+```Start-Windows11Upgrade
+```
+- Run the following command to run the Windows 11 Upgrade Tool with only the 'reboot' notification to the end user:
+```Start-Windows11Upgrade -Quiet
+```
+  - **The above will not notify in the event of incompatibility or failures. Nothing will occur.**
+  - Review the Endpoint the following day.
+
+### 3. Should the Device fail both of these methods, it will require replacement.
