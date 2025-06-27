@@ -77,7 +77,7 @@
 - [Feature Update Failure Overview](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsUpdateAlertSummaryReport.ReactView)
 
 
-### 1. Using InTune |  **Requires PIM to 'InTune Device Administrator' or role with Device Management Permissions.**
+#### 1. Using InTune |  **Requires PIM to 'InTune Device Administrator' or role with Device Management Permissions.**
 - Open Terminal / 'PWSH' 
 ```
 Connect-MgGraph
@@ -108,7 +108,7 @@ Get-EndpointStatus -Recommendations
   - That will print out easy readable instructions and issues with the endpoint to let you know what the issues may be.
 <br><br>
 
-### 2. Using Start-Windows11Upgrade | **Requires Local Admin**
+#### 2. Using Start-Windows11Upgrade | **Requires Local Admin**
 - Run the following command and determine if the endpoint is eligible:
 ```
 Get-Windows11HardwareReadiness
@@ -135,4 +135,5 @@ Start-Windows11Upgrade -Quiet
   - Review the Endpoint the following day.
 
 <br><br>
-### 3. Should the Device fail both of these methods, it will require replacement.
+
+#### 3. Should the Device fail both of these methods, it will require replacement.
