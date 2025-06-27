@@ -71,6 +71,35 @@
 
 ## 6. Upgrade Experience
 
+### Install the following module(s) if you do not have them already by running these commands:
+```
+ If (!((Get-PSRepository -Name PSGAllery | Select-Object -Property InstallationPolicy) -eq "Trusted")){Set-PSResourceRepository -Name PSGallery -Trusted:$true}
+    if(!(Get-AppXPackage -name Microsoft.DesktopAppInstaller)){Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe}
+    if (!(Get-PackageProvider -Name PowerShellGet)){Install-PackageProvider WinGet -Force}
+    If (!(Get-PSResource -Name PSWinGet -Scope AllUsers -erroraction silentlyContinue)){Install-PSResource -Name PSWinGet -Scope AllUsers}
+    $modules = Invoke-RestMethod -Method Get -URI "https://raw.githubusercontent.com/DirtyDabe23/DDrosdick_Public_Repo/refs/heads/main/PSModules.JSON"
+    $allInstalledModules = Get-PSResource -Scope Allusers
+    $missingModules = $modules | Where-Object {($_.Name -notin $allInstalledModules.Name)}
+    $moduleErrorLog = @()
+    $moduleErrorCount = 0
+    ForEach ($module in $missingModules){
+        try{
+            Install-PSREsource -Name $module.name -Version ($module.version.Major, $module.version.Minor -join ".") -Scope AllUsers -ErrorAction SilentlyContinue
+        }
+        catch{
+            $moduleErrorCount++
+            $moduleErrorLog+= [PSCustomObject]@{
+                moduleName = $Module.name
+                error       = $error[0]
+            }
+        }
+    }
+    if ($moduleErrorCount -gt 0){
+        Write-Output "Please review the `$moduleErrorLog after this completes"
+    }
+```
+
+
 ### The following Links are for Overviews and Visbility
 - [Dynamic Group for the Update - 'Global: CC - Windows 10 to Windows 11 Upgrade Devices'](https://intune.microsoft.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Overview/groupId/4ead5497-a492-4812-b90b-634abb5013ee/menuId/)
 - [Feature Update Configuration Profile](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsFeatureUpdateProfileMenu/~/2/profileId/016465b5-f7f0-4d03-bc17-a3955e53d2cd/profileName/6%20GLOBAL%3A%20CC%20-%20Win10%20to%20Win11/hasWufbEnabledLicense/true)
