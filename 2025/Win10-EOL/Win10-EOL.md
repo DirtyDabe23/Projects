@@ -71,6 +71,12 @@
 
 ## 6. Upgrade Experience
 
+### The following Links are for Overviews and Visbility
+- [Dynamic Group for the Update - 'Global: CC - Windows 10 to Windows 11 Upgrade Devices'](https://intune.microsoft.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Overview/groupId/4ead5497-a492-4812-b90b-634abb5013ee/menuId/)
+- [Feature Update Configuration Profile](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsFeatureUpdateProfileMenu/~/2/profileId/016465b5-f7f0-4d03-bc17-a3955e53d2cd/profileName/6%20GLOBAL%3A%20CC%20-%20Win10%20to%20Win11/hasWufbEnabledLicense/true)
+- [Feature Update Failure Overview](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsUpdateAlertSummaryReport.ReactView)
+
+
 ### 1. Using InTune
 - PIM to 'InTune Device Administrator' or role with Device Management Permissions.
 - Open Terminal / 'PWSH' 
