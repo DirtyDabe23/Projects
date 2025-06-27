@@ -67,7 +67,7 @@
 - **All Commands are to be run using the EvapcoModule**
 - The File Path is as follows: ***Evapco, Inc\GIT IT Support - Documents\General\Powershell Scripts\EvapcoRepo\Modules\EvapcoModule***
   - The *required*    version is **1.0.2.4**
-  - The *recommended* version is **1.0.3.6** 
+  - The *recommended* version is **1.0.3.7** 
 
 ## 6. Upgrade Experience
 
@@ -104,6 +104,7 @@
 - [Dynamic Group for the Update - 'Global: CC - Windows 10 to Windows 11 Upgrade Devices'](https://intune.microsoft.com/#view/Microsoft_AAD_IAM/GroupDetailsMenuBlade/~/Overview/groupId/4ead5497-a492-4812-b90b-634abb5013ee/menuId/)
 - [Feature Update Configuration Profile](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsFeatureUpdateProfileMenu/~/2/profileId/016465b5-f7f0-4d03-bc17-a3955e53d2cd/profileName/6%20GLOBAL%3A%20CC%20-%20Win10%20to%20Win11/hasWufbEnabledLicense/true)
 - [Feature Update Failure Overview](https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/WindowsUpdateAlertSummaryReport.ReactView)
+- [EvapcoModule](https://intune.microsoft.com/#view/Microsoft_Intune_Apps/SettingsMenu/~/0/appId/1f81f11d-8349-4cfb-8e53-a41b24da27cb)
 
 
 #### 1. Using InTune |  **Requires PIM to 'InTune Device Administrator' or role with Device Management Permissions.**
