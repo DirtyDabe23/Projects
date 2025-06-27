@@ -134,6 +134,6 @@ Start-Windows11Upgrade -Quiet
   - **The above will not notify in the event of incompatibility or failures. Nothing will occur.**
   - Review the Endpoint the following day.
 
-<br><br>
 
-#### 3. Should the Device fail both of these methods, it will require replacement.
+
+#### ***Should the Device fail both of the above methods, it will require replacement.***
