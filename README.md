@@ -8,8 +8,35 @@
 ### EVAPCO, Inc. and all Subsidiary Organizations: Windows 10 to Windows 11 Upgrade
 - This was written primarily by David Drosdick with the assistance of Brandon Ulsh.
 
-## Disclaimers and Technical Assistance: 
+## Disclaimers and Technical Assistance
 - While every effort has been made to ensure that these scripts are safe to run, there are still chances that unexpected results may occur.
+- All information here is shared with best intentions 
 - For any questions or concerns, please contact:
-    - [David.Drosdick@evapco.com](mailTo:David.Drosdick@evapco.com)  for general questions about the project(s), scripts, methods, or technologies. <br>
-    - [Git-Helpdesk@evapco.com](mailTo:Git-Heldpesk@evapco.com)     for technical issues related to specific endpoints. <br>
+    - [David.Drosdick@evapco.com](mailTo:David.Drosdick@evapco.com)  for general questions about the project(s), scripts, methods, or technologies.
+    - [Git-Helpdesk@evapco.com](mailTo:Git-Heldpesk@evapco.com)     for technical issues related to specific endpoints.
+    - **In the event you notice, or feel that sensitive data is being exposed, immediately contact your supervisor, and the above immediately**
+
+### Thank You's and Acknowledgements
+#### Technical Contributions
+- Tyler Bollinger:  Infrastructure Engineer         / Primary for **all Physical Infrastructure**
+- Brandon Ulsh:     Assistant Operations Manager    / Primary for **all End User Centric Technical Operations**
+- Keith Thomas:     Infrastructure Administrator    / Primary for **all Legacy EVAPCO, Inc. Configurations**
+- Eric Pugh:        Senior Network Engineer         / Primary for **all Network Configurations**
+- Justin Meckley:   Solutions Team Lead / Manager   / Primary for **all Solutions Architechture**
+
+#### Interdepartmental Contributions / "Special Thank-Yous"
+- Justin Liller:    Tester for SDAC                 / General Coding Practices
+- Kelly Tausen:     Tester for SDAC                 / Front End
+- Emily Hatfield:   Tester for SDAC                 
+- Dan Sheppard:     Willing Tester for EUAC's       
+- Heather Plank:    EUEM                            
+- Caitlin Bagot:    EUEM
+
+#### External Contributions, Assistance, and Thank-Yous
+- Presidio
+- Connection
+
+### 'Ad-Hoc' Acronyms
+-SDAC   :   Software Development Affecting Changes
+-EUAC   :   End User Affecting Change
+-EUES   :   End User Education and Support
