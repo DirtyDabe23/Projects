@@ -25,11 +25,11 @@
 - Justin Meckley:   Solutions Team Lead / Manager   / Primary for **all Solutions Architechture**
 
 #### Interdepartmental Contributions / "Special Thank-Yous"
-- Justin Liller:    Tester for SDAC                 / General Coding Practices
+- Justin Liller:    Tester for SDAC [^1]                 / General Coding Practices
 - Kelly Tausen:     Tester for SDAC                 / Front End
 - Emily Hatfield:   Tester for SDAC                 
-- Dan Sheppard:     Willing Tester for EUAC's       
-- Heather Plank:    EUEM                            
+- Dan Sheppard:     Willing Tester for EUAC [^2]       
+- Heather Plank:    EUEM[^3]                            
 - Caitlin Bagot:    EUEM
 
 #### External Contributions, Assistance, and Thank-Yous
@@ -37,6 +37,6 @@
 - Connection
 
 ### 'Ad-Hoc' Acronyms
--SDAC   :   Software Development Affecting Changes
--EUAC   :   End User Affecting Change
--EUES   :   End User Education and Support
+[^1]: Software Development Affecting Changes
+[^2]: End User Affecting Change
+[^3]: End User Education and Support
