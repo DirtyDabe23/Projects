@@ -29,8 +29,8 @@
 - Kelly Tausen:     Tester for SDAC                 / Front End
 - Emily Hatfield:   Tester for SDAC                 
 - Dan Sheppard:     Willing Tester for EUAC [^2]       
-- Heather Plank:    EUEM[^3]                            
-- Caitlin Bagot:    EUEM
+- Heather Plank:    EUES[^3]                            
+- Caitlin Bagot:    EUES
 
 #### External Contributions, Assistance, and Thank-Yous
 - Presidio
